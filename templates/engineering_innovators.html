@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Engineering Innovators</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/engineering_innovators/yohen.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Yohendra Prakash G</h2>
+              <p>Dept: ECE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/engineering_innovators/sant.jpg') }}"
+                class="rounded-img"
+              />
+
+              <h2>Santhiya S</h2>
+              <p>Dept: ECE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/engineering_innovators/tharun.jpg') }}"
+                class="rounded-img"
+              />
+
+              <h2>Tharun K</h2>
+              <p>Dept: ECE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/engineering_innovators/dharun.webp') }}"
+                class="rounded-img"
+              />
+
+              <h2>DHARUN C</h2>
+              <p>Dept: AD | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p>
+      Our AI-based spam filtering system enhances an AI-powered video creation
+      platform that transforms textbook content into multimedia formats like
+      videos and music. Using NLP techniques and machine learning, the system
+      filters irrelevant or inappropriate content during creation by applying
+      semantic analysis, dynamic keyword matching, contextual understanding, and
+      sentiment analysis. This ensures high-quality, syllabus-aligned
+      educational content. Built with TensorFlow, Spacy, Hugging Face
+      Transformers, and Flask or FastAPI, the system provides real-time
+      processing and feedback, ensuring scalability, reliability, and efficiency
+      for spam-free, engaging learning material.
+    </p>
+  </body>
+</html>

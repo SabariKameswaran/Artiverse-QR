@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agro Tech</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Agro Tech</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/agro_tech/Deepa.jpg') }}"
+                alt="Deepa"
+                class="rounded-img"
+              />
+              <h2>Deepa Shree S</h2>
+              <p>Dept: AGE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/agro_tech/Mahima.jpg') }}"
+                alt="Mahima"
+                class="rounded-img"
+              />
+              <h2>Mahima P</h2>
+              <p>Dept: AGE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/agro_tech/Arsath.jpg') }}"
+                alt="Arsath"
+                class="rounded-img"
+              />
+              <h2>Mohammed Arsath A</h2>
+              <p>Dept: AGE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/agro_tech/Santhosh.jpg') }}"
+                alt="Santhosh"
+                class="rounded-img"
+              />
+              <h2>Santhosh Gupta N</h2>
+              <p>Dept: ECE | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p class="abstract-text">
+      The Emotion-Based Music Player is an innovative system designed to enhance
+      user experience by integrating emotion recognition with personalized music
+      recommendations. The system leverages Recurrent Neural Networks (RNNs) to
+      analyze user emotions through text or speech input. By processing the
+      emotional tone, sentiment, and contextual nuances of the input data, the
+      system classifies the user's emotional state (e.g., happy, sad, relaxed,
+      excited). Based on this emotional profile, the music player recommends
+      tracks from a curated database that match or complement the user’s current
+      mood. The model's ability to understand dynamic emotional shifts through
+      continuous feedback allows it to adapt and refine music suggestions over
+      time. This paper explores the architecture of the emotion-based music
+      player, detailing the use of Natural Language Processing (NLP) for text
+      analysis and speech recognition technologies for voice inputs.
+      Additionally, it investigates the integration of deep learning techniques
+      for both emotion detection and music recommendation, offering a
+      personalized, mood-aware listening experience. This approach aims to
+      transform how users interact with music by aligning musical content with
+      their emotional states, thus promoting emotional well-being and
+      engagement.
+    </p>
+  </body>
+</html>

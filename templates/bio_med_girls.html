@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Bio Med Girls</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/bio_med_girls/Archana.jpg') }}"
+                alt="Archana"
+                class="rounded-img"
+              />
+              <h2>Archana J</h2>
+              <p>Dept: BME | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/bio_med_girls/shobana.jpg') }}"
+                alt="Shobana"
+                class="rounded-img"
+              />
+              <h2>Shobana Devi S</h2>
+              <p>Dept: BME | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/bio_med_girls/Farshana.jpg') }}"
+                alt="Farshana"
+                class="rounded-img"
+              />
+              <h2>Farshana Begum M</h2>
+              <p>Dept: BME | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/bio_med_girls/risika.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Risika R S</h2>
+              <p>Dept: | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p>
+      Passwords are a common method for protecting personal information online,
+      but weak passwords increase vulnerability to cyber threats. This project
+      develops an AI-powered Password Strength Assessment tool that evaluates
+      password security by analyzing length, character variety, and
+      predictability. Using smart algorithms, it detects weak passwords and
+      provides clear recommendations to strengthen them, such as adding special
+      characters, increasing length, or avoiding common patterns. Designed for
+      ease of use, this tool empowers users to create stronger passwords,
+      enhancing protection against hacking and data theft while promoting better
+      online security.
+    </p>
+  </body>
+</html>

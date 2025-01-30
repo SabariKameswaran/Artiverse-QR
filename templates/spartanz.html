@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Sky8ive Coders</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/spartanz/naveen.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Devapriyan P</h2>
+              <p>Dept: CSE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/spartanz/manoj.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Nandhitha SPP</h2>
+              <p>Dept: CSE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/spartanz/samson.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Winston S</h2>
+              <p>Dept: CSE | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/bio_med_girls/Rohini.jpg') }}"
+                alt="Rohini"
+                class="rounded-img"
+              />
+              <h2>Rohini</h2>
+              <p>Dept: AD | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p class="abstract-text">
+      A machine learning system can offer personalized healthcare advice by
+      integrating genetic data with lifestyle factors like diet, exercise,
+      sleep, and environment. It identifies patterns and predicts risks for
+      conditions like diabetes and heart disease, providing tailored
+      recommendations for lifestyle adjustments. Continuously updating with new
+      research, the system empowers individuals to make informed health
+      decisions while ensuring data privacy. This approach revolutionizes
+      preventive care, promoting proactive well-being.
+    </p>
+  </body>
+</html>

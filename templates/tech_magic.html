@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Tech Magic</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/tech_magic/vishwa.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>VISHWASHRE GK</h2>
+              <p>Dept: CIVIL | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/tech_magic/maha.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>MAHA LAKSHMI S</h2>
+              <p>Dept: CIVIL | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/tech_magic/elamathi.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>ELAMATHI P</h2>
+              <p>Dept: CIVIL | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/tech_magic/sathya.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>SATHYA PRIYA M</h2>
+              <p>Dept: BME | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p class="abstract-text">
+      The AI-Driven Grievance Redressal System enhances public service complaint
+      handling by addressing delays, poor categorization, and lack of
+      transparency. Using NLP and ML, it automates complaint categorization,
+      prioritization, and routing. Citizens can submit grievances via a chatbot,
+      receiving real-time status updates. Geolocation APIs enable rapid
+      response, while secure database management ensures data protection. This
+      system improves efficiency, reduces response times, and fosters public
+      trust through transparent service delivery.
+    </p>
+  </body>
+</html>

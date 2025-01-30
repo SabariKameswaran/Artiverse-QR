@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Tech Minds</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/techminds/sundar.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Sundharaguru S M</h2>
+              <p>Dept: IT | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/techminds/sid.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Abubakkar Siddiq A</h2>
+              <p>Dept: IT | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/techminds/akash.jpg') }}"
+                class="rounded-img"
+              />
+              <h2>Akash Kanna A</h2>
+              <p>Dept: IT | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/techminds/joy.png') }}"
+                class="rounded-img"
+              />
+              <h2>JOY YABESH A</h2>
+              <p>Dept: AGE | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p class="abstract-text">
+      The Plant Disease Detection project utilizes Convolutional Neural Networks
+      (CNNs) to identify plant diseases from images of affected leaves. The
+      system is trained on a dataset comprising both healthy and 39 different
+      disease-affected leaves, undergoing preprocessing techniques before being
+      fed into the model. It enables real-time diagnosis through a mobile or web
+      application, offering early detection and actionable recommendations to
+      prevent crop losses and optimize fertilizer use. With each identified
+      disease, the system suggests suitable fertilizers along with direct
+      purchasing links, improving crop management and intervention efficiency.
+    </p>
+  </body>
+</html>

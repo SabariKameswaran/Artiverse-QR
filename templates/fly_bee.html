@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Fly Bee</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/fly_bee/abishek.jpg') }}"
+                alt="Sriman Abishek N"
+                class="rounded-img"
+              />
+              <h2>Sriman Abishek N</h2>
+              <p>Dept: MECH | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/fly_bee/sulai.jpg') }}"
+                alt="Sulaiman S"
+                class="rounded-img"
+              />
+              <h2>Sulaiman S</h2>
+              <p>Dept: MECH | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/fly_bee/srinath.jpg') }}"
+                alt="Srinath B"
+                class="rounded-img"
+              />
+              <h2>Srinath B</h2>
+              <p>Dept: MECH | Year: III</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/fly_bee/sarath.jpg') }}"
+                alt="Sarathkumar S"
+                class="rounded-img"
+              />
+              <h2>Sarathkumar S</h2>
+              <p>Dept: IT | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p>
+      Our AI-driven Resume Screening System uses machine learning and NLP to
+      automate resume parsing and candidate-job matching. It extracts key
+      details like skills and experience, aligning them with job requirements
+      for accurate matching. Advanced semantic analysis ensures precise results,
+      while the system ranks candidates based on relevance, allowing recruiters
+      to prioritize the best fits. Customizable algorithms and bias detection
+      promote fair hiring practices, accelerating recruitment, reducing manual
+      effort, and improving decision-making efficiency.
+    </p>
+  </body>
+</html>

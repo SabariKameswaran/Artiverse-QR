@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Card Styling */
+.card {
+    overflow: visible;
+    width: 170px;
+    height: 254px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms;
+    box-shadow: 0px 0px 10px 1px #000000ee;
+    border-radius: 5px;
+}
+
+/* Front & Back Styling */
+.front, .back {
+    background-color: #151515;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Back Gradient Animation */
+.back::before {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 200px; /* Increased width for better visibility */
+    height: 200%;
+    background: linear-gradient(90deg, transparent, rgba(255, 153, 102, 0.8), rgba(255, 153, 102, 0.9), rgba(255, 153, 102, 0.8), transparent);
+    animation: rotation_481 4s linear infinite;
+    opacity: 1; /* Ensure full visibility */
+}
+
+/* Rotation Animation */
+@keyframes rotation_481 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Back Content */
+.back-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 21, 21, 0.9); /* Slight transparency */
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Rounded Image */
+.rounded-img {
+    width: 100px; /* Reduced size slightly for better alignment */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Text Below Image */
+.back-content p {
+    font-size: 12px;
+    color: #ddd;
+    margin: 5px 0 0;
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #ff9966;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #ff7744;
+}

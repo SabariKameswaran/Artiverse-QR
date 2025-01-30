@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>HogWarts</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/hogwarts/hars.jpg') }}"
+                alt="Sriman Abishek N"
+                class="rounded-img"
+              />
+              <h2>Harsha varthini V</h2>
+              <p>Dept: CSE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/hogwarts/dhiv.jpg') }}"
+                alt="Sulaiman S"
+                class="rounded-img"
+              />
+              <h2>Dhivya V</h2>
+              <p>Dept: CSE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/hogwarts/praveen.jpg') }}"
+                alt="Srinath B"
+                class="rounded-img"
+              />
+              <h2>Praveen R</h2>
+              <p>Dept: CSE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/hogwarts/kavi.png') }}"
+                alt="Sarathkumar S"
+                class="rounded-img"
+              />
+              <h2>Kavishree K J</h2>
+              <p>Dept: CSE | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p>
+      This Machine Learning-Based Accident Detection System analyzes real-time
+      vehicle data like speed, location, and impact force to detect accidents.
+      It uses machine learning algorithms to classify events as accidents and
+      sends automatic notifications to emergency services with critical details,
+      such as location and severity. A user-friendly dashboard displays accident
+      data on a map, improving emergency response times. The system aims to
+      enhance road safety by reducing response delays and improving rescue
+      efforts. Future work includes integrating real-time sensor data and
+      expanding interaction with hospitals and traffic management systems.
+    </p>
+  </body>
+</html>

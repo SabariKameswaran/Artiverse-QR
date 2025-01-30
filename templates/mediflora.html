@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Mediflora</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/mediflora/shripriya.png') }}"
+                alt="ShriPriya M"
+                class="rounded-img"
+              />
+              <h2>ShriPriya M</h2>
+              <p>Dept: ECE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/mediflora/sonika.jpg') }}"
+                alt="Sonika R K"
+                class="rounded-img"
+              />
+              <h2>Sonika R K</h2>
+              <p>Dept: ECE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/mediflora/nithish.jpg') }}"
+                alt="Nithishkumar S"
+                class="rounded-img"
+              />
+              <h2>Nithishkumar S</h2>
+              <p>Dept: ECE | Year: II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="{{ url_for('static', filename='images/mediflora/durga.jpg') }}"
+                alt="Durgalakshmi B"
+                class="rounded-img"
+              />
+              <h2>Durgalakshmi B</h2>
+              <p>Dept: CSE | Year: I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px">Abstract</h2>
+    <p>
+      The Medicinal Plant Identification and Information Retrieval app uses AI
+      to bridge the gap between people and natural remedies from plants. It
+      employs Convolutional Neural Networks (CNN) for image analysis and
+      multiclass classification algorithms to identify plant species and
+      therapeutic groups based on appearance. Generative AI models like Groq or
+      Google PaLM provide real-time data on each plant’s therapeutic properties,
+      uses in folk medicine, and side effects. The system leverages Large
+      Language Models (LLMs) for natural language processing, enabling quick
+      translation and personalized information. Developed with Django for
+      backend management, the app targets healthcare enthusiasts, researchers,
+      and farmers, promoting awareness of medicinal plants’ healing values.
+    </p>
+  </body>
+</html>
