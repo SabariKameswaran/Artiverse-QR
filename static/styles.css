@@ -142,3 +142,29 @@ h2 {
 .download-btn:hover {
     background-color: #ff7744;
 }
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Team Button */
+.team-button {
+    background-color: #ff9966;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.team-button:hover {
+    background-color: #ff7744;
+}
